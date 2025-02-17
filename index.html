@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCITT || CODE WIZARDS</title>
+
+    <!--Linking HTML to CSS file-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!--Navbar starts here -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="images/scitt.png" alt="Navbar Logo">
+            <span>Code Wizards</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.hml">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="games.html">Coding Games</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <!--Login Button-->
+        <a href="login.html" class="login-btn">Login</a>
+    </nav>
+    <!--Navbar ends here -->
+
+    <!--Hero Section Starts Here-->
+    <div class="hero">
+        <img src="images/hero1.jpg" alt="hero image" class="hero-image">
+        <div class="hero-content">
+            <h1>CODE WIZARDS GAMES</h1>
+            <P>Test your coding knowledge with our cool coding games</P>
+            <a href="#survey">Start Playing</a>
+        </div>
+
+    </div>
+    <!--Hero Section ends Here-->
+
+    <!--Form Section Start-->
+    <div class="form-container">
+        <!--Form Top Section-->
+        <img src="images/scitt.png" alt="logo" class="form-logo">
+        <h2>Code Wizards Games</h2>
+        <p>Test your coding knowledge with the following fun quiz</p>
+
+        <form>
+            <!--Name Input-->
+            <label>Your Name</label>
+            <input type="text" placeholder="Enter your name" required>
+
+            <!--Email Input-->
+            <label>Your Email</label>
+            <input type="text" placeholder="Enter your email" required>
+
+            <!--Dropdown Input-->
+            <label>Which of the following is not a frontend Language?</label>
+            <select>
+                <option>Html</option>
+                <option>Python</option>
+                <option>CSS</option>
+                <option>Javascript</option>
+            </select>
+
+            <!--Radio Buttons Input-->
+            <label>Which of the following is a version control tool?</label>
+            <div class="radio-btn">
+                <input type="radio" name="version-control" id="git">
+                <label for="git">Git</label>
+                
+                <input type="radio" name="version-control" id="bootstrap">
+                <label for="bootstrap">Bootstrap</label>
+
+                <input type="radio" name="version-control" id="html">
+                <label for="html">Html</label>
+
+                <input type="radio" name="version-control" id="css">
+                <label for="css">Css</label>
+            </div>
+
+
+            <!---Range slider-->
+            <label>How confident are you in coding as a SCITT student?</label>
+            <input type="range" min="1" max="10" value="5">
+
+            <!--Date picker-->
+            <label>When did the scitt class start?</label>
+            <input type="date">
+
+            <!--File Upload-->
+            <label>Upload a creation of your code displaying python functions we learnt in class</label>
+            <input type="file">
+
+            <!--Text area-->
+            <label>Why did you join Scitt class</label>
+            <textarea placeholder="share your thoughts..."></textarea>
+
+            <!--Number Input-->
+            <label>How many students won the last scitt hackathon prizes?</label>
+            <input type="number" min="1">
+
+            <!--submit button-->
+            <button type="submit" class="form-btn">Submit Button</button>
+
+        </form>
+    </div>
+    <!--Form Section End-->
+
+    <footer class="footer">
+
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>We are <b>Code Wizards</b> The best SCITT Team</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Email</h3>
+            <p>Email:Codewizards@gamil.com</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Resources</h3>
+            <ul>
+                <li><a href="#">FAQS</a></li>
+                <li><a href="#">Games</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <p>Social Media Links</p>
+        </div>
+    </footer>
+
+    <div class="copyright"> 
+        <p>©Copyright 2025 || Developed by Code Wizards</p>
+    </div>
+    
+</body>
+</html>
